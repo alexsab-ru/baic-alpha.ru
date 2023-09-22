@@ -1,3 +1,4 @@
+import { getCookie } from "./cookie";
 const $$ = (el) => {
 	return document.querySelectorAll(el);
 };
@@ -124,6 +125,16 @@ $$("form").forEach((form) => {
 		}
 		let formData = new FormData(form);
 		const params = new URLSearchParams([...new FormData(event.target).entries()]);
+		if(getCookie('fta')) {
+			formData.append("fta", true);
+		}
+		if(getCookie('__gtm_campaign_url')) {
+			var source = new URL(getCookie('__gtm_campaign_url'));
+			source.search.slice(1).split("&").forEach(function(pair) {
+				var param = pair.split("=");
+				formData.append(param[0], param[1]);
+			});
+		}
 		formData.append(
 			"page_url",
 			window.location.origin + window.location.pathname
