@@ -162,7 +162,7 @@ $$("form").forEach((form) => {
 					window.WebsiteAnalytics.ymGoal("form-error");
 					showMessageModal(messageModal, errorIcon, errorText + "<br>" + data.error);
 				} else {
-					window.WebsiteAnalytics.ymGoal("form-subtim");
+					window.WebsiteAnalytics.ymGoal("form-submit");
 					window.WebsiteAnalytics.dataLayer("form_success", formDataObj);
 					showMessageModal(messageModal, successIcon, successText);
 				}

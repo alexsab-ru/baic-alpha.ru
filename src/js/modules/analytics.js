@@ -154,7 +154,7 @@ var formDataObj = window.WebsiteAnalytics.getFormDataObject(formData, form.id);
 
 Вставляем где происходит событие Success
 window.WebsiteAnalytics.ymGoal("form-required");
-window.WebsiteAnalytics.ymGoal("form-subtim");
+window.WebsiteAnalytics.ymGoal("form-submit");
 window.WebsiteAnalytics.ymGoal("form-error");
 window.WebsiteAnalytics.dataLayer("form_success", formDataObj);
 */
