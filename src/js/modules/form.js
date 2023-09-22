@@ -1,7 +1,9 @@
 import { getCookie } from "./cookie";
+
 const $$ = (el) => {
 	return document.querySelectorAll(el);
 };
+
 // PHONE MASK
 function maskphone(e) {
 	let num = this.value
@@ -18,10 +20,13 @@ function maskphone(e) {
 	this.value = num.join("");
 	this.nextSibling.nextElementSibling.classList.add("hidden");
 }
+
 $$("input[name=phone]").forEach(function (element) {
 	element.addEventListener("focus", maskphone);
 	element.addEventListener("input", maskphone);
 });
+
+
 // AGREE CHECKBOX
 // Проверка на состояние чекбокса, показ/скрытие ошибки
 $$("input[name=agree]").forEach(function (element) {
@@ -34,6 +39,8 @@ $$("input[name=agree]").forEach(function (element) {
 		}
 	});
 });
+
+
 // TEXTAREA
 const minLengthTextareaField = 10; // минимальное кол-во символов
 // проверка на минимальное кол-во символов и скрытие ошибки
@@ -42,6 +49,8 @@ const checkTextareaLength = (textarea, minLength) => {
 		textarea.nextSibling.nextElementSibling.classList.add("hidden");
 	}
 };
+
+
 // CHANGE textarea для всез браузеров
 $$("textarea").forEach(function (textarea) {
 	if (textarea.addEventListener) {
@@ -60,6 +69,7 @@ $$("textarea").forEach(function (textarea) {
 		});
 	}
 });
+
 
 // BUTTON
 // Состояние кнопки
@@ -83,6 +93,7 @@ const showMessageModal = (messageModal, icon, message) => {
 	messageModal.classList.remove("hidden");
 };
 
+
 // FORMS
 // Отправка всех форм
 $$("form").forEach((form) => {
@@ -99,11 +110,9 @@ $$("form").forEach((form) => {
 			'<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52"><path fill="#279548" d="M26,0A26,26,0,1,0,52,26,26,26,0,0,0,26,0Zm9.6,17.5a1.94,1.94,0,0,1,2,2,2,2,0,1,1-2-2Zm-19.2,0a2,2,0,1,1-2,2A2,2,0,0,1,16.4,17.5ZM40.09,32.15a15.8,15.8,0,0,1-28.18,0,1,1,0,0,1,1.78-.9,13.81,13.81,0,0,0,24.62,0,1,1,0,1,1,1.78.9Z"></path></svg>';
 		const errorText =
 			'<b class="text-bold block text-2xl mb-4">Упс!</b> Что-то пошло не так. Перезагрузите страницу и попробуйте снова. ';
-		let successText = "";
+		let successText = '<b class="text-bold block text-2xl mb-4">Спасибо!</b> В скором времени мы свяжемся с Вами!';
 		const messageModal = document.getElementById("message-modal");
 
-		successText =
-			'<b class="text-bold block text-2xl mb-4">Спасибо!</b> В скором времени мы свяжемся с Вами!';
 		if (!phone.value.length) {
 			showErrorMes(form, ".phone", "Телефон является обязательным полем");
 			stateBtn(btn, "Отправить");
