@@ -48,7 +48,7 @@
 						class="flex items-center flex-nowrap justify-center max-[480px]:flex-row flex-col lg:flex-row gap-1 lg:gap-4"
 					>
 						<div class="lg:pr-4 lg:border-r border-r-[#628788]">
-							<img src="img/logo.png" class="max-h-6 sm:max-h-10" alt="Baic" />
+							<img src="/img/logo.png" class="max-h-6 sm:max-h-10" alt="Baic" />
 						</div>
 						<div
 							class="text-xs sm:text-xl lg:text-2xl uppercase tracking-wider lg:tracking-normal"
@@ -101,7 +101,7 @@
 				</a>
 			</div>
 			<img
-				src="img/404.jpg"
+				src="/img/404.jpg"
 				class="absolute top-1/2 right-1/2 translate-x-2/4"
 				alt="not found"
 			/>
@@ -119,7 +119,7 @@
 						class="flex items-center flex-nowrap flex-col sm:flex-row gap-1 sm:gap-4 mb-6"
 					>
 						<div class="sm:pr-4 sm:border-r border-r-[#628788]">
-							<img src="img/logo.png" class="max-h-10" alt="Baic" />
+							<img src="/img/logo.png" class="max-h-10" alt="Baic" />
 						</div>
 						<div
 							class="text-xl sm:text-2xl leading-none uppercase tracking-wider sm:tracking-normal"
@@ -255,7 +255,7 @@
 				<p class="text-center mb-10 font-normal text-gray-600">
 					Оставьте свои данные и мы свяжемся с Вами в ближайшее время!
 				</p>
-				<form class="flex flex-col gap-4" id="rating-form">
+				<form class="flex flex-col gap-4" id="common_form" name="common_form">
 					<input type="hidden" name="form" value="" />
 					<input
 						type="email"
@@ -294,13 +294,13 @@
 							<span
 								class="fake-checkbox-black mt-0.5 w-4 h-4 border border-black inline-block flex-shrink-0 transition-all relative"
 							></span>
-							<span>Я согласен на обработку персональных данных</span>
-							<!-- <a
+							<span>Я согласен на </span>
+							<a
 								href="/privacy-policy.pdf"
 								class="text-black underline transition-all hover:no-underline"
 								target="_blank"
 								>обработку персональных данных</a
-							> -->
+							>
 						</div>
 						<div class="error-message text-xs text-red mt-1 w-full hidden agree">
 							Чтобы продолжить, установите флажок
@@ -348,5 +348,10 @@
 		<!-- END MODALS -->
 		<script type="module" src="/src/js/app.js"></script>
 
+		<!-- calltouch -->
+		<script>
+		(function(w,d,n,c){w.CalltouchDataObject=n;w[n]=function(){w[n]["callbacks"].push(arguments)};if(!w[n]["callbacks"]){w[n]["callbacks"]=[]}w[n]["loaded"]=false;if(typeof c!=="object"){c=[c]}w[n]["counters"]=c;for(var i=0;i<c.length;i+=1){p(c[i])}function p(cId){var a=d.getElementsByTagName("script")[0],s=d.createElement("script"),i=function(){a.parentNode.insertBefore(s,a)},m=typeof Array.prototype.find === 'function',n=m?"init-min.js":"init.js";s.async=true;s.src="https://mod.calltouch.ru/"+n+"?id="+cId;if(w.opera=="[object Opera]"){d.addEventListener("DOMContentLoaded",i,false)}else{i()}}})(window,document,"ct","sy3w0k4q");
+		</script>
+		<!-- /calltouch -->
 	</body>
 </html>
