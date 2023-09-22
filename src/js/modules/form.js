@@ -155,7 +155,7 @@ $$("form").forEach((form) => {
 				if(formData.get(param[0])){
 					param[0] += " GET";
 				}
-				formData.append(param[0], param[1]);
+				formData.append(param[0], decodeURIComponent(param[1]));
 			});
 		const params = new URLSearchParams([...formData]);
 		var formDataObj = window.WebsiteAnalytics.getFormDataObject(formData, form.id);
