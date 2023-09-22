@@ -40,7 +40,7 @@
 		}
 		</script>
 		<!-- /Yandex.Metrika counter -->
-		<script type="module" crossorigin src="./assets/main-17847ff5.js"></script>
+		<script type="module" crossorigin src="./assets/main-d5fc2523.js"></script>
 		<link rel="stylesheet" href="./assets/index-09a82171.css">
 	</head>
 
@@ -56,7 +56,7 @@
 						class="flex items-center flex-nowrap justify-center max-[480px]:flex-row flex-col lg:flex-row gap-1 lg:gap-4"
 					>
 						<div class="lg:pr-4 lg:border-r border-r-[#628788]">
-							<img src="img/logo.png" class="max-h-6 sm:max-h-10" alt="Baic" />
+							<img src="./img/logo.png" class="max-h-6 sm:max-h-10" alt="Baic" />
 						</div>
 						<div
 							class="text-xs sm:text-xl lg:text-2xl uppercase tracking-wider lg:tracking-normal"
@@ -111,7 +111,7 @@
 								autoplay
 								muted
 								loop
-								poster="img/banner.jpg"
+								poster="./img/banner.jpg"
 								class="absolute inset-0 h-full w-full object-cover"
 							>
 								<source src="https://alexsab.ru/video/baic.mp4" type="video/mp4" />
@@ -139,14 +139,14 @@
 
 		<section class="relative pb-20 xl:pb-32 z-[1] model" data-dir="u5-plus">
 			<img
-				src="img/u5-plus/bg.jpg"
+				src="./img/u5-plus/bg.jpg"
 				class="absolute w-full h-[420px] object-cover z-[-1]"
 			/>
 			<div
 				class="hidden md:block absolute right-0 md:top-48 lg:top-20 xl:-top-10 2xl:-top-20 sm:max-w-[50%] md:max-w-[550px] lg:max-w-3xl xl:max-w-5xl 2xl:max-w-6xl"
 			>
 				<img
-					src="img/u5-plus/gray.png"
+					src="./img/u5-plus/gray.png"
 					class="w-full h-auto color-img-preview"
 					alt="Baic U5 Plus"
 				/>
@@ -240,7 +240,7 @@
 
 				<div class="block md:hidden mb-10 -mt-10">
 					<img
-						src="img/u5-plus/gray.png"
+						src="./img/u5-plus/gray.png"
 						class="w-full h-auto color-img-preview"
 						alt="Baic U5 Plus"
 					/>
@@ -345,14 +345,14 @@
 
 		<section class="relative pb-20 z-[1] model bg-gray-100" data-dir="x35">
 			<img
-				src="img/x35/bg.jpg"
+				src="./img/x35/bg.jpg"
 				class="absolute w-full h-[420px] object-cover z-[-1]"
 			/>
 			<div
 				class="hidden md:block absolute right-0 md:top-44 lg:top-20 xl:-top-10 2xl:-top-10 sm:max-w-[50%] md:max-w-[550px] lg:max-w-3xl xl:max-w-5xl 2xl:max-w-6xl"
 			>
 				<img
-					src="img/x35/red.png"
+					src="./img/x35/red.png"
 					class="w-full h-auto color-img-preview"
 					alt="Baic X35"
 				/>
@@ -446,7 +446,7 @@
 
 				<div class="block md:hidden mb-10 -mt-10">
 					<img
-						src="img/x35/red.png"
+						src="./img/x35/red.png"
 						class="w-full h-auto color-img-preview"
 						alt="Baic X35"
 					/>
@@ -594,13 +594,13 @@
 								<span
 									class="fake-checkbox-white mt-0.5 w-4 h-4 border border-white inline-block flex-shrink-0 transition-all relative"
 								></span>
-								<span>Я согласен на обработку персональных данных</span>
-								<!-- <a
+								<span>Я согласен на </span>
+								<a
 									href="/privacy-policy.pdf"
 									class="text-white underline transition-all hover:no-underline"
 									target="_blank"
 									>обработку персональных данных</a
-								> -->
+								>
 							</div>
 							<div class="error-message text-xs text-red mt-1 w-full hidden agree">
 								Чтобы продолжить, установите флажок
@@ -623,7 +623,7 @@
 						class="flex items-center flex-nowrap flex-col sm:flex-row gap-1 sm:gap-4 mb-6"
 					>
 						<div class="sm:pr-4 sm:border-r border-r-[#628788]">
-							<img src="img/logo.png" class="max-h-10" alt="Baic" />
+							<img src="./img/logo.png" class="max-h-10" alt="Baic" />
 						</div>
 						<div
 							class="text-xl sm:text-2xl leading-none uppercase tracking-wider sm:tracking-normal"
@@ -759,7 +759,7 @@
 				<p class="text-center mb-10 font-normal text-gray-600">
 					Оставьте свои данные и мы свяжемся с Вами в ближайшее время!
 				</p>
-				<form class="flex flex-col gap-4" id="rating-form">
+				<form class="flex flex-col gap-4" id="common_form" name="common_form">
 					<input type="hidden" name="form" value="" />
 					<input
 						type="email"
@@ -794,17 +794,17 @@
 							name="agree"
 							class="absolute w-0 h-0 opacity-0 invisible"
 						/>
-						<div class="flex gap-x-2 text-gray-800">
+						<div class="flex flex-wrap gap-x-2 text-gray-800">
 							<span
 								class="fake-checkbox-black mt-0.5 w-4 h-4 border border-black inline-block flex-shrink-0 transition-all relative"
 							></span>
-							<span>Я согласен на обработку персональных данных</span>
-							<!-- <a
+							<span>Я согласен на </span>
+							<a
 								href="/privacy-policy.pdf"
 								class="text-black underline transition-all hover:no-underline"
 								target="_blank"
 								>обработку персональных данных</a
-							> -->
+							>
 						</div>
 						<div class="error-message text-xs text-red mt-1 w-full hidden agree">
 							Чтобы продолжить, установите флажок
@@ -854,5 +854,10 @@
 
 		
 
+		<!-- calltouch -->
+		<script>
+		(function(w,d,n,c){w.CalltouchDataObject=n;w[n]=function(){w[n]["callbacks"].push(arguments)};if(!w[n]["callbacks"]){w[n]["callbacks"]=[]}w[n]["loaded"]=false;if(typeof c!=="object"){c=[c]}w[n]["counters"]=c;for(var i=0;i<c.length;i+=1){p(c[i])}function p(cId){var a=d.getElementsByTagName("script")[0],s=d.createElement("script"),i=function(){a.parentNode.insertBefore(s,a)},m=typeof Array.prototype.find === 'function',n=m?"init-min.js":"init.js";s.async=true;s.src="https://mod.calltouch.ru/"+n+"?id="+cId;if(w.opera=="[object Opera]"){d.addEventListener("DOMContentLoaded",i,false)}else{i()}}})(window,document,"ct","sy3w0k4q");
+		</script>
+		<!-- /calltouch -->
 	</body>
 </html>
