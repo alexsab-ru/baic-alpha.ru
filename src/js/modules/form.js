@@ -133,7 +133,6 @@ $$("form").forEach((form) => {
 			return;
 		}
 		let formData = new FormData(form);
-		const params = new URLSearchParams([...new FormData(event.target).entries()]);
 		if(getCookie('fta')) {
 			formData.append("fta", true);
 		}
@@ -153,11 +152,12 @@ $$("form").forEach((form) => {
 			.split("&")
 			.forEach(function (pair) {
 				var param = pair.split("=");
+				if(formData.get(param[0])){
+					param[0] += " GET";
+				}
 				formData.append(param[0], param[1]);
 			});
-		for (const pair of formData) {
-			params.append(pair[0], pair[1]);
-		}
+		const params = new URLSearchParams([...formData]);
 		var formDataObj = window.WebsiteAnalytics.getFormDataObject(formData, form.id);
 		// await fetch('https://alexsab.ru/lead/test/', {
 		await fetch("https://alexsab.ru/lead/baic/alpha/", {
