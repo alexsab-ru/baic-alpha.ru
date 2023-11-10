@@ -1,5 +1,5 @@
 import './modules/scroll';
-import './modules/analytics';
+import '/node_modules/scripts/js/analytics.js';
 import './modules/slider';
 import './modules/functions';
 import './modules/color.links';
