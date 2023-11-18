@@ -2,19 +2,34 @@ import { getCookie } from "./cookie";
 
 import { maskphone, noValidPhone } from './maskphone';
 
-function $$(el) {
-	return document.querySelectorAll(el);
+const phoneChecker = (phone) => {
+	let form = phone.closest("form"),
+		btn = form.querySelector('input[type="submit"]');
+	if (!phone.value.length) {
+		showErrorMes(form, ".phone", "Телефон является обязательным полем");
+		stateBtn(btn, "Отправить");
+		return false;
+	} else {
+		const phoneRe = new RegExp(/^\+7 [0-9]{3} [0-9]{3}-[0-9]{2}-[0-9]{2}$/);
+		if (!phoneRe.test(phone.value) || noValidPhone(phone.value)) {
+			showErrorMes(form, ".phone", "Введен некорректный номер телефона");
+			stateBtn(btn, "Отправить");
+			return false;
+		}
+	}
+	showErrorMes(form, ".phone", "");
+	return true;
 };
 
-$$("input[name=phone]").forEach(function (element) {
+document.querySelectorAll("input[name=phone]").forEach(function (element) {
 	element.addEventListener("focus", maskphone);
 	element.addEventListener("input", maskphone);
+	element.addEventListener("change", () => phoneChecker(element));
 });
-
 
 // AGREE CHECKBOX
 // Проверка на состояние чекбокса, показ/скрытие ошибки
-$$("input[name=agree]").forEach(function (element) {
+document.querySelectorAll("input[name=agree]").forEach(function (element) {
 	let errorMes = element.parentElement.querySelector(".agree");
 	element.addEventListener("change", (e) => {
 		if (!e.target.checked) {
@@ -25,7 +40,6 @@ $$("input[name=agree]").forEach(function (element) {
 	});
 });
 
-
 // TEXTAREA
 const minLengthTextareaField = 10; // минимальное кол-во символов
 // проверка на минимальное кол-во символов и скрытие ошибки
@@ -35,9 +49,8 @@ const checkTextareaLength = (textarea, minLength) => {
 	}
 };
 
-
 // CHANGE textarea для всез браузеров
-$$("textarea").forEach(function (textarea) {
+document.querySelectorAll("textarea").forEach(function (textarea) {
 	if (textarea.addEventListener) {
 		textarea.addEventListener(
 			"input",
@@ -54,7 +67,6 @@ $$("textarea").forEach(function (textarea) {
 		});
 	}
 });
-
 
 // BUTTON
 // Состояние кнопки
@@ -81,7 +93,7 @@ const showMessageModal = (messageModal, icon, message) => {
 
 // FORMS
 // Отправка всех форм
-$$("form").forEach((form) => {
+document.querySelectorAll("form").forEach((form) => {
 	const btn = form.querySelector('input[type="submit"]');
 	form.onsubmit = async (event) => {
 		event.preventDefault();
@@ -98,17 +110,8 @@ $$("form").forEach((form) => {
 		let successText = '<b class="text-bold block text-2xl mb-4">Спасибо!</b> В скором времени мы свяжемся с Вами!';
 		const messageModal = document.getElementById("message-modal");
 
-		if (!phone.value.length) {
-			showErrorMes(form, ".phone", "Телефон является обязательным полем");
-			stateBtn(btn, "Отправить");
+		if (!phoneChecker(phone)) {
 			return;
-		} else {
-			const phoneRe = new RegExp(/^\+7 [0-9]{3} [0-9]{3}-[0-9]{2}-[0-9]{2}$/);
-			if (!phoneRe.test(phone.value) || noValidPhone(phone.value)) {
-				showErrorMes(form, ".phone", "Введен некорректный номер телефона");
-				stateBtn(btn, "Отправить");
-				return;
-			}
 		}
 
 		// если флажок не установлен - фронт
