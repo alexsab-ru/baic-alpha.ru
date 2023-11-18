@@ -1,3 +1,5 @@
+import { reachGoal } from '@alexsab-ru/scripts';
+
 document.querySelectorAll(".popup-link").forEach(
 	(link) =>
 		(link.onclick = (e) => {
@@ -17,6 +19,7 @@ document.querySelectorAll(".popup-link").forEach(
 			if (formName && formInput) {
 				formInput.value = formName;
 			}
+			reachGoal("form_open");
 			document.body.classList.add("overflow-hidden");
 		})
 );
@@ -36,7 +39,7 @@ document.querySelectorAll(".modal-overlay").forEach((el) => {
 });
 
 function closeModal(modal) {
-	window.WebsiteAnalytics.dataLayer("form-close");
+	reachGoal("form_close");
 
 	const form = modal.querySelector("form");
 	if (form) {

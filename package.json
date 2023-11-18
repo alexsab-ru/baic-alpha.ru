@@ -15,8 +15,8 @@
     "vite": "^4.3.9"
   },
   "dependencies": {
+    "@alexsab-ru/scripts": "^0.1.0",
     "@mdi/font": "^7.2.96",
-    "scripts": "github:alexsab-ru/scripts",
     "swiper": "^10.0.4"
   }
 }

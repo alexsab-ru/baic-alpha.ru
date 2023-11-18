@@ -1,4 +1,5 @@
 import { getCookie } from "./cookie";
+import { reachGoal, getFormDataObject } from '@alexsab-ru/scripts';
 
 import { maskphone, noValidPhone } from './maskphone';
 
@@ -120,6 +121,7 @@ document.querySelectorAll("form").forEach((form) => {
 			stateBtn(btn, "Отправить");
 			return;
 		}
+		reachGoal("form_submit");
 		let formData = new FormData(form);
 		if(getCookie('fta')) {
 			formData.append("fta", true);
@@ -147,7 +149,7 @@ document.querySelectorAll("form").forEach((form) => {
 				}
 			});
 		const params = new URLSearchParams([...formData]);
-		var formDataObj = window.WebsiteAnalytics.getFormDataObject(formData, form.id);
+		var formDataObj = getFormDataObject(formData, form.id);
 		// await fetch('https://alexsab.ru/lead/test/', {
 		await fetch("https://alexsab.ru/lead/baic/alpha/", {
 			method: "POST",
@@ -164,20 +166,21 @@ document.querySelectorAll("form").forEach((form) => {
 				console.log(data);
 				stateBtn(btn, "Отправить");
 				if (data.answer == "required") {
-					window.WebsiteAnalytics.dataLayer("form-required");
+					reachGoal("form_required");
 					showErrorMes(form, data.field, data.message);
 					return;
 				} else if (data.answer == "error") {
-					window.WebsiteAnalytics.dataLayer("form-error");
+					reachGoal("form_error");
 					showMessageModal(messageModal, errorIcon, errorText + "<br>" + data.error);
+					return;
 				} else {
-					window.WebsiteAnalytics.dataLayer("form-success", formDataObj);
+					reachGoal("form_success", formDataObj);
 					showMessageModal(messageModal, successIcon, successText);
 				}
 				form.reset();
 			})
 			.catch((error) => {
-				window.WebsiteAnalytics.dataLayer("form-error");
+				reachGoal("form_error");
 				console.error("Ошибка отправки данных формы: " + error);
 				showMessageModal(messageModal, errorIcon, errorText + "<br>" + error);
 				stateBtn(btn, "Отправить");
