@@ -1,4 +1,4 @@
-window.addEventListener("resize", setLeftPos);
+// window.addEventListener("resize", setLeftPos);
 
 function setLeftPos() {
 	const ww = window.innerWidth;
@@ -14,7 +14,7 @@ function setLeftPos() {
 	}
 }
 
-setLeftPos();
+// setLeftPos();
 
 document.querySelector(".disclamer_switch").addEventListener("click", function (e) {
 	e.preventDefault();
