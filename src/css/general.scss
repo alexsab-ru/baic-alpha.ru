@@ -18,3 +18,21 @@
 		@apply text-base relative;
 	}
 }
+
+@media (min-width: 1024px) and (max-width: 1074px) {
+	.s1024_1074 {
+		left: 45px;
+	}
+}
+
+@media (min-width: 1280px) and (max-width: 1330px) {
+	.s1280_1330 {
+		left: 45px;
+	}
+}
+
+@media (min-width: 1536px) and (max-width: 1586px) {
+	.s1536_1586 {
+		left: 45px;
+	}
+}
