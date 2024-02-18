@@ -11,11 +11,11 @@ const models = await fetch(`${BASE_URL}${SITE_URL}/data/models.json`).then((resp
 // import models from '@/data/models.json'
 ---
 
-<Layout title="TITLE" description="DESCRIPTION">
+<Layout title="Купить Баик у официального дилера BAIC Альфа в Самаре" description="Специальные цены и подарки на автомобили Баик. Выгодные предложения на весь модельный ряд BAIC. Забронируйте свой автомобиль прямо сейчас! ☎️ 8 (846) 977-77-10">
 	<Banner fetchURL={`${BASE_URL}${SITE_URL}/data/banners.json`} />
 	<ModelList fetchURL={`${BASE_URL}${SITE_URL}/data/models.json`} />
 	{models && models.map((model: any) => model.show && <Model model={model}/>)}
-	<Callback bgUrl="https://baic-krasnodar.ru/img/x35/konkurenty.jpg" />
+	<Callback bgUrl="/img/models/x35/konkurenty.jpg" />
 	<Services fetchURL={`${BASE_URL}${SITE_URL}/data/services.json`} />
 	<Contacts
 		fetchURL={`${BASE_URL}${SITE_URL}/data/salons.json`}
