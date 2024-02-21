@@ -6,7 +6,7 @@ const url = `https://alexsab.ru?utm_source=${BRAND}&utm_compaing=${SITE_NAME}`
 const salons = await fetch(`${BASE_URL}${SITE_URL}/data/salons.json`).then((response) => response.json());
 // import salons from '@/data/salons.json';
 const path = Astro.url.pathname;
-import logo from '@/components/Logo/logo.svg';
+import logo from '@/components/Logo/logo.png';
 ---
 
 <footer class="bg-black/90 text-white py-14 relative">
