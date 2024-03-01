@@ -1,102 +1,83 @@
 dealer = {
-    "city": "Оренбург",
-    "where": "Оренбурге",
+    "city": "Самара",
+    "where": "Самаре",
 }
 # Словарь соответствия цветов
 model_mapping = {
-    "Atlas Pro": {
-        "folder": "Atlas Pro",
+    "BJ40": {
+        "folder": "bj40",
         "color": {
-            "Черный": "black-metallic",
-            "Черный/черный": "black-metallic",
-            "Серый": "gray-metallic",
-            "Красный": "red-metallic",
-            "Серебристый": "silver-metallic",
-        }},
-    "Atlas, I": {
-        "folder": "Atlas Pro",
-        "color": {
-
-        }},
-    "Atlas, II": {
-        "folder": "Atlas-2024",
-        "color": {
-            "Черный": "black-metallic",
-            "Черный/черный": "black-metallic",
-            "Серебристый": "silver-metallic",
-            "Серый": "starry-blue-metallic",
-            "Белый": "white",
-        }},
-    "Coolray, I Рестайлинг": {
-        "folder": "New Coolray",
-        "color": {
-            "Красный": "bright-vermilion",
-            "Белый": "crystal-white",
-            "Синий": "cyber-blue",
-            "Серый": "magnetic-grey",
-            "Серебристый": "unicorn-grey",
-        }},
-    "Coolray, I": {
-        "folder": "Coolray",
-        "color": {
-            "Синий": "blue-metallic",
-            "Серый": "grey",
-            "Красный": "red",
-            "Серебристый": "silver-metallic",
-            "Белый": "white",
-        }},
-    "Emgrand L": {
-        "folder": "Emgrand",
-        "color": {
-            "Черный": "black-metallic",
-            "Синий": "blue-metallic",
-            "Золотой": "gold-metallic",
-            "Серый": "gray-metallic",
-            "Белый": "white-metallic",
-        }},
-    "Emgrand, II": {
-        "folder": "Emgrand",
-        "color": {
-            "Черный": "black-metallic",
-            "Синий": "blue-metallic",
-            "Золотой": "gold-metallic",
-            "Оранжевый": "gold-metallic",
-            "Серый": "gray-metallic",
-            "Белый": "white-metallic",
-        }},
-    "Monjaro": {
-        "folder": "Monjaro",
-        "color": {
-            "Черный": "black-metallic",
-            "Черный/черный": "black-metallic",
-            "Зеленый": "emerald-metallic",
-            "Синий": "emerald-metallic",
-            "Серый": "gray-metallic",
-            "Серебристый": "silver-metallic",
-            "Белый": "white-metallic",
-        }},
-    "Okavango": {
-        "folder": "Okavango",
-        "color": {
-
-        }},
-    "Tugella, I Рестайлинг": {
-        "folder": "Tugella",
-        "color": {
-            "Черный": "black-metallic",
-            "Черный/черный": "black-metallic",
-            "Серо-голубой": "gray-blue-metallic",
-            "Серый": "gray-metallic",
-            "Белый": "white-metallic",
-        }},
-    "X50": {
-        "folder": "Belgee X50",
-        "color": {
+            "black": "black",
+            "blue": "blue",
+            "green": "green",
+            "light-blue": "light-blue",
+            "red": "red",
+            "white": "white",
             "Черный": "black",
-            "Черный/черный": "black",
+            "Синий": "blue",
+            "Зеленый": "green",
+            "Светло-синий": "light-blue",
+            "Голубой": "light-blue",
+            "Красный": "red",
+            "Белый": "white",
+        }},
+    "U5 Plus": {
+        "folder": "u5-plus",
+        "color": {
+            "black": "black",
+            "gray": "gray",
+            "red": "red",
+            "white": "white",
+            "Черный": "black",
             "Серый": "gray",
             "Красный": "red",
+            "Белый": "white",
+        }},
+    "X35": {
+        "folder": "x35",
+        "color": {
+            "blue": "blue",
+            "bronze": "bronze",
+            "red": "red",
+            "white": "white",
             "Синий": "blue",
+            "Коричневый": "bronze",
+            "Красный": "red",
+            "Белый": "white",
+        }},
+    "X35": {
+        "folder": "x55",
+        "color": {
+            "gray-with-black-roof": "gray-with-black-roof",
+            "gray": "gray",
+            "light-gray-with-black-roof": "light-gray-with-black-roof",
+            "light-gray": "light-gray",
+            "red-with-black-roof": "red-with-black-roof",
+            "red": "red",
+            "white-with-black-roof": "white-with-black-roof",
+            "white": "white",
+            "yellow-with-black-roof": "yellow-with-black-roof",
+            "yellow": "yellow",
+            "Серый/черный": "gray-with-black-roof",
+            "Серый": "gray",
+            "Светло-серый/черный": "light-gray-with-black-roof",
+            "Светло-серый": "light-gray",
+            "Красный/черный": "red-with-black-roof",
+            "Красный": "red",
+            "Белый/черный": "white-with-black-roof",
+            "Белый": "white",
+            "Желтый/черный": "yellow-with-black-roof",
+            "Желтый": "yellow",
+        }},
+    "X7": {
+        "folder": "x7",
+        "color": {
+            "black": "black",
+            "gray": "gray",
+            "silver": "silver",
+            "white": "white",
+            "Черный": "black",
+            "Серый": "gray",
             "Серебристый": "silver",
             "Белый": "white",
         }},
