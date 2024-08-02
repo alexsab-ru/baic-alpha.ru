@@ -94,6 +94,7 @@ model_mapping = {
             "Темно-серо-черный": "dark-gray-black.webp",
             "Dark-gray": "dark-gray.webp",
             "Темно-серый": "dark-gray.webp",
+            "Серый": "dark-gray.webp",
             "Red-black": "red-black.webp",
             "Красно-черный": "red-black.webp",
             "Red": "red.webp",
