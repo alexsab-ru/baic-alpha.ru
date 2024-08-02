@@ -45,7 +45,7 @@ model_mapping = {
             "Красный": "red.png",
             "Белый": "white.png",
         }},
-    "X35": {
+    "x55": {
         "folder": "x55",
         "color": {
             "gray-with-black-roof": "gray-with-black-roof.png",
@@ -80,6 +80,32 @@ model_mapping = {
             "Серый": "gray.png",
             "Серебристый": "silver.png",
             "Белый": "white.png",
+        }},
+    "X75": {
+        "folder": "x75",
+        "color": {
+            "Black": "black.webp",
+            "Черный": "black.webp",
+            "Blue-black": "blue-black.webp",
+            "Сине-черный": "blue-black.webp",
+            "Blue": "blue.webp",
+            "Голубой": "blue.webp",
+            "Dark-gray-black": "dark-gray-black.webp",
+            "Темно-серо-черный": "dark-gray-black.webp",
+            "Dark-gray": "dark-gray.webp",
+            "Темно-серый": "dark-gray.webp",
+            "Red-black": "red-black.webp",
+            "Красно-черный": "red-black.webp",
+            "Red": "red.webp",
+            "Красный": "red.webp",
+            "Silver-black": "silver-black.webp",
+            "Серебристо-черный": "silver-black.webp",
+            "Silver": "silver.webp",
+            "Серебристый": "silver.webp",
+            "White-black": "white-black.webp",
+            "Бело-черный": "white-black.webp",
+            "White": "white.webp",
+            "Белый": "white.webp",
         }},
     # ... добавьте другие модели по мере необходимости
 }
