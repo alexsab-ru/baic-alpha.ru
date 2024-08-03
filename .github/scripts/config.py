@@ -45,7 +45,7 @@ model_mapping = {
             "Красный": "red.png",
             "Белый": "white.png",
         }},
-    "x55": {
+    "X55": {
         "folder": "x55",
         "color": {
             "gray-with-black-roof": "gray-with-black-roof.png",
