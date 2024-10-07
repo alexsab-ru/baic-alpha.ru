@@ -55,7 +55,7 @@ if (carsData.length > 0) {
 function currencyFormat(number, locale = 'ru-RU') {
   // Проверка на null, undefined, или пустую строку
   if (number === null || number === undefined || number === '' || isNaN(number)) {
-    return;
+    return number;
   }
 
   // Если number является строкой, пытаемся преобразовать её в число
@@ -65,7 +65,7 @@ function currencyFormat(number, locale = 'ru-RU') {
 
   // Если после преобразования значение не является числом (например, если оно было невалидной строкой)
   if (isNaN(number)) {
-    return;
+    return number;
   }
 
   return number.toLocaleString(locale, { 
