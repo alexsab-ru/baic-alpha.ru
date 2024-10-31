@@ -15,7 +15,15 @@ export default defineConfig({
 			configFile: './tailwind.baic.js'
 		}),
 		sitemap(),
-		robots(),
+		robots({
+			policy: [
+				{
+					userAgent: ["*"],
+					allow: ["/"],
+					disallow: ["/?*"],
+				},
+			  ],
+		}),
 		alpinejs(),
 		mdx(),
 		icon(),
