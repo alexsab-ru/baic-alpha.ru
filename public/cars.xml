@@ -2529,4 +2529,399 @@ Baic в Китае производит на своих заводах авто�
     <reserved />
   </status>
 <max_discount>0</max_discount><sale_price>2990000</sale_price><url>https://baic-alpha.ru/cars/baic-x75-15-amt-177-лс-luxury-black-2024/</url></vehicle>
+<vehicle>
+  <id>6473632</id>
+  <vin>XWDALUBCXP0001697</vin>
+  <uin />
+  <dealer id="6370">Автоцентр Альфа BAIC</dealer>
+  <category id="1">Легковые</category>
+  <subcategory />
+  <type>new</type>
+  <year>2023</year>
+  <mark_id>BAIC</mark_id><folder_id>X35</folder_id><generation />
+  <bodyConfiguration id="12332">Внедорожник 5 дв.</bodyConfiguration>
+  <modification_id>1.5 CVT (136 л.с.)</modification_id><complectation_name>Luxury</complectation_name><brandComplectationCode>C32BNUEV3001</brandComplectationCode>
+  <engineType>petrol</engineType>
+  <engineVolume>1499</engineVolume>
+  <enginePower>136</enginePower>
+  <bodyNumber />
+  <body_type>suv</body_type><bodyDoorCount>5</bodyDoorCount>
+  <seatCount>5</seatCount>
+  <color>silver</color><bodyColorMetallic>1</bodyColorMetallic>
+  <driveType>front</driveType>
+  <gearboxType>variator</gearboxType>
+  <gearboxGearCount />
+  <wheel>left</wheel><run>0</run><mileageUnit>km</mileageUnit>
+  <price>2390000</price>
+  <previousPrice />
+  <specialOffer>0</specialOffer>
+  <specialOfferPreviousPrice />
+  <priceWithDiscount>1890000</priceWithDiscount>
+  <tradeinDiscount />
+  <creditDiscount />
+  <insuranceDiscount />
+  <bargain>0</bargain>
+  <availability>available</availability>
+  <ptsType />
+  <country />
+  <operatingTime />
+  <ecoClass />
+  <driveWheel />
+  <axisCount />
+  <brakeType />
+  <cabinType />
+  <maximumPermittedMass />
+  <saddleHeight />
+  <cabinSuspension />
+  <chassisSuspension />
+  <length />
+  <width />
+  <bodyVolume />
+  <bucketVolume />
+  <tractionClass />
+  <refrigeratorClass />
+  <craneArrowRadius />
+  <craneArrowLength />
+  <craneArrowPayload />
+  <loadHeight />
+  <photoCount>1</photoCount>
+  <description>Специальная цена! 
+Успейте приобрести автомобиль из наличия с максимальными выгодами. Подробности узнавайте в отделе продаж.
+ Если Вас интересует автомобиль в другом цвете и комплектациях, обращайтесь в отдел продаж. Все автомобили представлены на тест драйве. 
+-Действуют льготные условия по кредитованию. 
+-Запущена программа трейд ин, ваш автомобиль покупаем по рыночной цене, вам нет необходимости продавать свой автомобиль самостоятельно. 
+
+Ждем Вас в официальном дилере Baic АЛЬФА, по адресу г. Самара, ул. Ново-Урицкая 22 
+
+ BAIC китайская государственная холдинговая компания, объединяющая несколько автомобилестроительных и машиностроительных предприятий. Baic в Китае производит на своих заводах автомобили Hyundai,Foton Motor, Mersedes, ZF (мировой производитель). Также в июле 2019 года BAIC Group и канадская корпорация Magna International создали совместное предприятие.</description>
+  <address>Самара, Новоурицкая 22</address>
+  <ownersCount>0</ownersCount>
+  <vehicleCondition>excellent</vehicleCondition>
+  <equipment>
+    <group id="1" name="Активная безопасность">
+      <element id="1">Антиблокировочная система</element>
+      <element id="2">Антипробуксовочная система</element>
+      <element id="3">Система курсовой устойчивости</element>
+      <element id="5">Система помощи при экстренном торможении</element>
+      <element id="8">Датчик давления в шинах</element>
+      <element id="223">ЭРА-ГЛОНАСС</element>
+    </group>
+    <group id="2" name="Пассивная безопасность">
+      <element id="10">Подушки безопасности водителя</element>
+      <element id="12">Подушки безопасности пассажира</element>
+      <element id="19">Система крепления детских автокресел</element>
+    </group>
+    <group id="3" name="Противоугонная система">
+      <element id="20">Сигнализация</element>
+      <element id="24">Иммобилайзер</element>
+      <element id="25">Центральный замок</element>
+    </group>
+    <group id="4" name="Помощь при вождении">
+      <element id="26">Бортовой компьютер</element>
+      <element id="27">Круиз-контроль</element>
+      <element id="30">Парктроник задний</element>
+      <element id="33">Камера заднего вида</element>
+      <element id="36">Система помощи при старте в гору</element>
+      <element id="41">Датчик света</element>
+    </group>
+    <group id="5" name="Комфорт">
+      <element id="43">Усилитель руля</element>
+      <element id="49">Запуск двигателя с кнопки</element>
+      <element id="51">Система доступа без ключа</element>
+      <element id="52">Регулировка руля</element>
+      <element id="57">Регулировка сиденья водителя в двух плоскостях</element>
+      <element id="67">Электростеклоподъемники передние и задние</element>
+      <element id="68">Электропривод зеркал</element>
+    </group>
+    <group id="6" name="Управление климатом и обогрев">
+      <element id="73">Кондиционер</element>
+    </group>
+    <group id="7" name="Мультимедиа и навигация">
+      <element id="101">USB</element>
+      <element id="105">TV</element>
+      <element id="109">Bluetooth</element>
+      <element id="121">Мультифункциональное рулевое колесо</element>
+      <element id="123">Розетка 12V</element>
+    </group>
+    <group id="8" name="Салон и интерьер">
+      <element id="126">Кожаная обивка салона</element>
+      <element id="133">Кожаный руль</element>
+      <element id="134">Люк</element>
+      <element id="137">Панорамная крыша</element>
+      <element id="139">Складывающееся заднее сидение</element>
+    </group>
+    <group id="9" name="Экстерьер">
+      <element id="159">Размер дисков 17″</element>
+    </group>
+    <group id="10" name="Освещение">
+      <element id="182">Светодиодные фары</element>
+      <element id="185">Огни дневного хода</element>
+    </group>
+    <group id="12" name="Комплектность">
+      <element id="215">Докатка</element>
+    </group>
+  </equipment>
+  <photos>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/7c9f3692b2b93800df692910d4dc28b9.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/6ca60d3f0984eef89d1ea1efe7e40d89.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/f59d0946ccb61156a8a4d2801d4e500a.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/32bd1abd5108a280fc3021b55ba871f2.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/3d6f500876284ff0cc28792be8fdbb25.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/4cab338105a9a0c913998f5350b6436d.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/7ee0aeed0de32cdcb295141f44cb29c0.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/4da5b51ebeac66ecdf32173abace6eb6.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/fd912de620df47909cf22d368c53c7c9.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/e95910921c0590499690d89feb9c9d79.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/ca6a3a92c5ea1aee789f53a3d379721e.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/73a666969821857bbf1ee7571cddf2da.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/469398935f25c18b90441fdecfd05971.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/bbd629b2fa2919230ff38e1908d1961b.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/f38738a7b6fb82ebd53a60339d9fbb3b.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/e30464e774135694c1a5f46b9d94dc8e.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/da7d011721e4078e8d396b6ceff5a3f6.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/316db89ed357ca10c2923087ab20ece8.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/73e510227d0eb7113de1ea1b166130b8.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/918b326b9fab69e7b6a49f55a40396a0.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/d39711e86446645b28e97e81afa9087a.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/e96028c330a0522ad9c0271832429fef.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/d43062acb9a02e98e139e25c85cf57ac.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/7052f0bc6928827b4c2f3e5f7e7c7841.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/4f83264af541cdf68d3fce8d74418ba4.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/eb75dce45798f33f602d42fd7712d489.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/975306277f4cf2f76ca2f9cbad02ff44.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/ef9aebd053d2f3eb06390a806a19e691.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/852d5661ae1e9f06d0ffaac4513865da.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/ef178c6919a2b2f64df6e0a16e548244.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/9d6b854f0ce0db617c13876931cca94f.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/3c796b8ff010deef0f70c6d740318f9f.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473632/orig/d6fa53d49b3815ddb5028812ffa7c5a2.jpg?sid=86</photo>
+  </photos>
+  <phones>
+    <phone number="78469777710" callFrom="8" callTo="20">+7(846)977-77-10</phone>
+  </phones>
+  <brandColorCode>AAH</brandColorCode>
+  <brandInteriorCode>KCC</brandInteriorCode>
+  <certificationProgram />
+  <avitoId />
+  <autoruId />
+  <dromId />
+  <siteUrl>https://alpha-baic.ru/</siteUrl>
+  <avitoUrl />
+  <autoruUrl />
+  <dromUrl />
+  <siteUrls>
+    <url sourceId="0" source="Ссылка по шаблону">https://alpha-baic.ru/</url>
+  </siteUrls>
+  <acquisitionSource />
+  <acquisitionDate>2024-08-08</acquisitionDate>
+  <manufactureDate />
+  <status>
+    <inPresalePreparation />
+    <inRepair />
+    <inLogistics />
+    <inLegal />
+    <inProblems />
+    <inContent />
+    <reserved />
+  </status>
+<max_discount>0</max_discount><sale_price>1890000</sale_price><url>https://baic-alpha.ru/cars/baic-x35-15-cvt-136-лс-luxury-silver-2023/</url></vehicle>
+<vehicle>
+  <id>6473694</id>
+  <vin>XWDALUBCXP0000890</vin>
+  <uin />
+  <dealer id="6370">Автоцентр Альфа BAIC</dealer>
+  <category id="1">Легковые</category>
+  <subcategory />
+  <type>new</type>
+  <year>2023</year>
+  <mark_id>BAIC</mark_id><folder_id>X35</folder_id><generation />
+  <bodyConfiguration id="12332">Внедорожник 5 дв.</bodyConfiguration>
+  <modification_id>1.5 CVT (136 л.с.)</modification_id><complectation_name>Luxury</complectation_name><brandComplectationCode>C32BNUEV3001</brandComplectationCode>
+  <engineType>petrol</engineType>
+  <engineVolume>1499</engineVolume>
+  <enginePower>136</enginePower>
+  <bodyNumber />
+  <body_type>suv</body_type><bodyDoorCount>5</bodyDoorCount>
+  <seatCount>5</seatCount>
+  <color>white</color><bodyColorMetallic>1</bodyColorMetallic>
+  <driveType>front</driveType>
+  <gearboxType>variator</gearboxType>
+  <gearboxGearCount />
+  <wheel>left</wheel><run>0</run><mileageUnit>km</mileageUnit>
+  <price>2390000</price>
+  <previousPrice />
+  <specialOffer>0</specialOffer>
+  <specialOfferPreviousPrice />
+  <priceWithDiscount>1890000</priceWithDiscount>
+  <tradeinDiscount />
+  <creditDiscount />
+  <insuranceDiscount />
+  <bargain>0</bargain>
+  <availability>available</availability>
+  <ptsType />
+  <country />
+  <operatingTime />
+  <ecoClass />
+  <driveWheel />
+  <axisCount />
+  <brakeType />
+  <cabinType />
+  <maximumPermittedMass />
+  <saddleHeight />
+  <cabinSuspension />
+  <chassisSuspension />
+  <length />
+  <width />
+  <bodyVolume />
+  <bucketVolume />
+  <tractionClass />
+  <refrigeratorClass />
+  <craneArrowRadius />
+  <craneArrowLength />
+  <craneArrowPayload />
+  <loadHeight />
+  <photoCount>1</photoCount>
+  <description>Специальная цена! 
+Успейте приобрести автомобиль из наличия с максимальными выгодами. Подробности узнавайте в отделе продаж.
+ Если Вас интересует автомобиль в другом цвете и комплектациях, обращайтесь в отдел продаж. Все автомобили представлены на тест драйве. 
+-Действуют льготные условия по кредитованию. 
+-Запущена программа трейд ин, ваш автомобиль покупаем по рыночной цене, вам нет необходимости продавать свой автомобиль самостоятельно. 
+
+Ждем Вас в официальном дилере Baic АЛЬФА, по адресу г. Самара, ул. Ново-Урицкая 22 
+
+ BAIC китайская государственная холдинговая компания, объединяющая несколько автомобилестроительных и машиностроительных предприятий. Baic в Китае производит на своих заводах автомобили Hyundai,Foton Motor, Mersedes, ZF (мировой производитель). Также в июле 2019 года BAIC Group и канадская корпорация Magna International создали совместное предприятие.</description>
+  <address>Самара, Новоурицкая 22</address>
+  <ownersCount>0</ownersCount>
+  <vehicleCondition>excellent</vehicleCondition>
+  <equipment>
+    <group id="1" name="Активная безопасность">
+      <element id="1">Антиблокировочная система</element>
+      <element id="2">Антипробуксовочная система</element>
+      <element id="3">Система курсовой устойчивости</element>
+      <element id="5">Система помощи при экстренном торможении</element>
+      <element id="8">Датчик давления в шинах</element>
+      <element id="223">ЭРА-ГЛОНАСС</element>
+    </group>
+    <group id="2" name="Пассивная безопасность">
+      <element id="10">Подушки безопасности водителя</element>
+      <element id="12">Подушки безопасности пассажира</element>
+      <element id="19">Система крепления детских автокресел</element>
+    </group>
+    <group id="3" name="Противоугонная система">
+      <element id="20">Сигнализация</element>
+      <element id="24">Иммобилайзер</element>
+      <element id="25">Центральный замок</element>
+    </group>
+    <group id="4" name="Помощь при вождении">
+      <element id="26">Бортовой компьютер</element>
+      <element id="27">Круиз-контроль</element>
+      <element id="30">Парктроник задний</element>
+      <element id="33">Камера заднего вида</element>
+      <element id="36">Система помощи при старте в гору</element>
+      <element id="41">Датчик света</element>
+    </group>
+    <group id="5" name="Комфорт">
+      <element id="43">Усилитель руля</element>
+      <element id="49">Запуск двигателя с кнопки</element>
+      <element id="51">Система доступа без ключа</element>
+      <element id="52">Регулировка руля</element>
+      <element id="57">Регулировка сиденья водителя в двух плоскостях</element>
+      <element id="67">Электростеклоподъемники передние и задние</element>
+      <element id="68">Электропривод зеркал</element>
+    </group>
+    <group id="6" name="Управление климатом и обогрев">
+      <element id="73">Кондиционер</element>
+    </group>
+    <group id="7" name="Мультимедиа и навигация">
+      <element id="101">USB</element>
+      <element id="105">TV</element>
+      <element id="109">Bluetooth</element>
+      <element id="121">Мультифункциональное рулевое колесо</element>
+      <element id="123">Розетка 12V</element>
+    </group>
+    <group id="8" name="Салон и интерьер">
+      <element id="126">Кожаная обивка салона</element>
+      <element id="133">Кожаный руль</element>
+      <element id="134">Люк</element>
+      <element id="137">Панорамная крыша</element>
+      <element id="139">Складывающееся заднее сидение</element>
+    </group>
+    <group id="9" name="Экстерьер">
+      <element id="159">Размер дисков 17″</element>
+    </group>
+    <group id="10" name="Освещение">
+      <element id="182">Светодиодные фары</element>
+      <element id="185">Огни дневного хода</element>
+    </group>
+    <group id="12" name="Комплектность">
+      <element id="215">Докатка</element>
+    </group>
+  </equipment>
+  <photos>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/eabfecd0846719647f1157427e570198.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/9bd49d5bcad5ba1f70834fe8c70089ad.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/bcd07f63319baecac8e8b1df93f03780.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/9c45c022c1bd34478bb5c5a564e55347.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/171b1ba064f8e92c8cc90478e8fef773.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/e18697d0899a45b0148d4eefa8f55d5a.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/7c8587cb3530348c447e7130ce32f477.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/8d077e95bea4cded7b635f668ead7ab3.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/2dcd06005d1eb151fea39cc51971b56f.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/76e4b1405efc4f4adf7c4116c3578544.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/875978c2df5034d0b7744a336c0f2cb1.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/c52dc1f0d3392378cb8cd04bdd2fe3db.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/c29969189fc4c26d32671bc34e68d689.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/d709e5a4947277bccfaed74ce3a1e84f.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/eb649583025315d3fb1c7473f48302f7.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/50576249ec964c3ddeeca0ea482961a5.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/a13f185dd83a0d477f926e8c7e6f466f.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/6be4cb7e37d4db0df66608c0d5a49f54.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/b2532fd14605f0d13ccce4552328b7c7.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/7c8a307c1c348351b86e11dc9985f3f6.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/c9624dc691e037a113e85ae544c1af04.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/96240d244f859c3c82098f1876e9bbd0.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/91dfdcbdfffad46349810afca898b357.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/f005e1963c70eae72ab3429ba80dc92a.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/326a54c93077f3be5374d57aa81f84b7.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/d020b0eb4b66008613bb58a34e979c4e.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/889432e7cb80d773fdea350c059b2ba7.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/8fa7208fc68582e55fd1de19d72ac86c.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/d55d10891c39663954664a9b8e5962fb.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/38406f8cb3a6d059665312ae33f5de67.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/dcb4b4dff7573f8cfb6946331f548a7f.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/658baa814e5d91c4811b77f441638f87.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/6b6b6d5f16f532faade99a382bfa249d.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/ac297baa425ca1b54b27c8aed0560b7a.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/39be567fc6f314976d0d479c328602f7.jpg?sid=86</photo>
+    <photo>https://s1.maxposter.ru/photo/6370/6473694/orig/36ad3e6341d4349d264a980e2a208a11.jpg?sid=86</photo>
+  </photos>
+  <phones>
+    <phone number="78469777710" callFrom="8" callTo="20">+7(846)977-77-10</phone>
+  </phones>
+  <brandColorCode>CAQ</brandColorCode>
+  <brandInteriorCode>KCC</brandInteriorCode>
+  <certificationProgram />
+  <avitoId />
+  <autoruId />
+  <dromId />
+  <siteUrl>https://alpha-baic.ru/</siteUrl>
+  <avitoUrl />
+  <autoruUrl />
+  <dromUrl />
+  <siteUrls>
+    <url sourceId="0" source="Ссылка по шаблону">https://alpha-baic.ru/</url>
+  </siteUrls>
+  <acquisitionSource />
+  <acquisitionDate>2024-08-31</acquisitionDate>
+  <manufactureDate />
+  <status>
+    <inPresalePreparation />
+    <inRepair />
+    <inLogistics />
+    <inLegal />
+    <inProblems />
+    <inContent />
+    <reserved />
+  </status>
+<max_discount>0</max_discount><sale_price>1890000</sale_price><url>https://baic-alpha.ru/cars/baic-x35-15-cvt-136-лс-luxury-white-2023/</url></vehicle>
 </vehicles>
