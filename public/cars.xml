@@ -1944,7 +1944,7 @@ Baic в Китае производит на своих заводах авто�
   <bodyNumber />
   <body_type>SUV</body_type><bodyDoorCount>5</bodyDoorCount>
   <seatCount>5</seatCount>
-  <color>Серебристый</color><bodyColorMetallic>1</bodyColorMetallic>
+  <color>Серебряный</color><bodyColorMetallic>1</bodyColorMetallic>
   <driveType>Передний</driveType>
   <gearboxType>Вариатор</gearboxType>
   <gearboxGearCount />
@@ -2547,7 +2547,7 @@ Baic в Китае производит на своих заводах авто�
   <bodyNumber />
   <body_type>suv</body_type><bodyDoorCount>5</bodyDoorCount>
   <seatCount>5</seatCount>
-  <color>silver</color><bodyColorMetallic>1</bodyColorMetallic>
+  <color>Серебряный</color><bodyColorMetallic>1</bodyColorMetallic>
   <driveType>front</driveType>
   <gearboxType>variator</gearboxType>
   <gearboxGearCount />
