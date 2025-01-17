@@ -26,7 +26,6 @@
   <previousPrice />
   <specialOffer>0</specialOffer>
   <specialOfferPreviousPrice />
-  <priceWithDiscount>2600000</priceWithDiscount>
   <tradeinDiscount />
   <creditDiscount />
   <insuranceDiscount />
@@ -314,7 +313,7 @@ USB-разъём спереди
     <inContent />
     <reserved />
   </status>
-<max_discount>0</max_discount><sale_price>2600000</sale_price><url>https://baic-alpha.ru/cars/baic-x7-15-amt-180-лс-comfort-grey-2023/</url></vehicle>
+<max_discount>900000</max_discount><priceWithDiscount>2200000</priceWithDiscount><sale_price>2200000</sale_price><url>https://baic-alpha.ru/cars/baic-x7-15-amt-180-лс-comfort-серый-2023/</url></vehicle>
 <vehicle>
   <id>5655156</id>
   <vin>XWDD4UAM1P0000104</vin>
@@ -342,7 +341,6 @@ USB-разъём спереди
   <previousPrice />
   <specialOffer>0</specialOffer>
   <specialOfferPreviousPrice />
-  <priceWithDiscount>2750000</priceWithDiscount>
   <tradeinDiscount />
   <creditDiscount />
   <insuranceDiscount />
@@ -623,7 +621,7 @@ USB-разъём спереди
     <inContent />
     <reserved />
   </status>
-<max_discount>0</max_discount><sale_price>2750000</sale_price><url>https://baic-alpha.ru/cars/baic-x55-15-amt-177-лс-elite-grey-2023/</url></vehicle>
+<max_discount>900000</max_discount><priceWithDiscount>2350000</priceWithDiscount><sale_price>2350000</sale_price><url>https://baic-alpha.ru/cars/baic-x55-15-amt-177-лс-elite-серый-2023/</url></vehicle>
 <vehicle>
   <id>5692457</id>
   <vin>XWDFLUBM1P0000386</vin>
@@ -651,7 +649,6 @@ USB-разъём спереди
   <previousPrice>3475000</previousPrice>
   <specialOffer>0</specialOffer>
   <specialOfferPreviousPrice />
-  <priceWithDiscount>3070000</priceWithDiscount>
   <tradeinDiscount />
   <creditDiscount />
   <insuranceDiscount />
@@ -832,7 +829,7 @@ Baic в Китае производит на своих заводах авто�
     <inContent />
     <reserved />
   </status>
-<max_discount>0</max_discount><sale_price>3070000</sale_price><url>https://baic-alpha.ru/cars/baic-x75-15-amt-177-лс-luxury-pro-white-2024/</url></vehicle>
+<max_discount>680000</max_discount><priceWithDiscount>2600000</priceWithDiscount><sale_price>2600000</sale_price><url>https://baic-alpha.ru/cars/baic-x75-15-amt-177-лс-luxury-pro-белый-2024/</url></vehicle>
 <vehicle>
   <id>5727648</id>
   <vin>XWDDEUAM4P0000403</vin>
@@ -860,7 +857,6 @@ Baic в Китае производит на своих заводах авто�
   <previousPrice />
   <specialOffer>0</specialOffer>
   <specialOfferPreviousPrice />
-  <priceWithDiscount>3250000</priceWithDiscount>
   <tradeinDiscount />
   <creditDiscount />
   <insuranceDiscount />
@@ -1146,7 +1142,7 @@ USB-разъём спереди
     <inContent />
     <reserved />
   </status>
-<max_discount>0</max_discount><sale_price>3250000</sale_price><url>https://baic-alpha.ru/cars/baic-x55-15-amt-177-лс-elite-red-2024/</url></vehicle>
+<max_discount>1100000</max_discount><priceWithDiscount>2150000</priceWithDiscount><sale_price>2150000</sale_price><url>https://baic-alpha.ru/cars/baic-x55-15-amt-177-лс-elite-красный-2024/</url></vehicle>
 <vehicle>
   <id>5936743</id>
   <vin>XWDCLSAM2R0007830</vin>
@@ -1174,7 +1170,6 @@ USB-разъём спереди
   <previousPrice />
   <specialOffer>0</specialOffer>
   <specialOfferPreviousPrice />
-  <priceWithDiscount>1980000</priceWithDiscount>
   <tradeinDiscount />
   <creditDiscount />
   <insuranceDiscount />
@@ -1348,7 +1343,7 @@ Baic в Китае производит на своих заводах авто�
     <inContent />
     <reserved />
   </status>
-<max_discount>0</max_discount><sale_price>1980000</sale_price><url>https://baic-alpha.ru/cars/baic-u5-plus-15-mt-105-лс-luxury-grey-2024/</url></vehicle>
+<max_discount>530000</max_discount><priceWithDiscount>1550000</priceWithDiscount><sale_price>1550000</sale_price><url>https://baic-alpha.ru/cars/baic-u5-plus-15-mt-105-лс-luxury-серый-2024/</url></vehicle>
 <vehicle>
   <id>6101431</id>
   <vin>XWDBMUDE5R0000525</vin>
@@ -1376,7 +1371,6 @@ Baic в Китае производит на своих заводах авто�
   <previousPrice />
   <specialOffer>0</specialOffer>
   <specialOfferPreviousPrice />
-  <priceWithDiscount>4120000</priceWithDiscount>
   <tradeinDiscount />
   <creditDiscount />
   <insuranceDiscount />
@@ -1548,7 +1542,7 @@ Baic в Китае производит на своих заводах авто�
     <inContent />
     <reserved />
   </status>
-<max_discount>0</max_discount><sale_price>4120000</sale_price><url>https://baic-alpha.ru/cars/baic-bj40-20d-at-162-лс-4wd-exclusive-black-2024/</url></vehicle>
+<max_discount>780000</max_discount><priceWithDiscount>3620000</priceWithDiscount><sale_price>3620000</sale_price><url>https://baic-alpha.ru/cars/baic-bj40-20d-at-162-лс-4wd-exclusive-черный-2024/</url></vehicle>
 <vehicle>
   <id>6244448</id>
   <vin>XWDCLSAC6R0006784</vin>
@@ -1576,7 +1570,6 @@ Baic в Китае производит на своих заводах авто�
   <previousPrice />
   <specialOffer>0</specialOffer>
   <specialOfferPreviousPrice />
-  <priceWithDiscount>2050000</priceWithDiscount>
   <tradeinDiscount />
   <creditDiscount />
   <insuranceDiscount />
@@ -1751,7 +1744,7 @@ Baic в Китае производит на своих заводах авто�
     <inContent />
     <reserved />
   </status>
-<max_discount>0</max_discount><sale_price>2050000</sale_price><url>https://baic-alpha.ru/cars/baic-u5-plus-15-cvt-105-лс-luxury-white-2024/</url></vehicle>
+<max_discount>550000</max_discount><priceWithDiscount>1600000</priceWithDiscount><sale_price>1600000</sale_price><url>https://baic-alpha.ru/cars/baic-u5-plus-15-cvt-105-лс-luxury-белый-2024/</url></vehicle>
 <vehicle>
   <id>6244731</id>
   <vin>XWDCLSAM8P0008588</vin>
@@ -1775,11 +1768,10 @@ Baic в Китае производит на своих заводах авто�
   <gearboxType>Механика</gearboxType>
   <gearboxGearCount />
   <wheel>Левый</wheel><run>0</run><mileageUnit>km</mileageUnit>
-  <price>2080000</price>
+  <price>2045000</price>
   <previousPrice>2045000</previousPrice>
   <specialOffer>0</specialOffer>
   <specialOfferPreviousPrice />
-  <priceWithDiscount>1670000</priceWithDiscount>
   <tradeinDiscount />
   <creditDiscount />
   <insuranceDiscount />
@@ -1925,7 +1917,7 @@ Baic в Китае производит на своих заводах авто�
     <inContent />
     <reserved />
   </status>
-<max_discount>0</max_discount><sale_price>1670000</sale_price><url>https://baic-alpha.ru/cars/baic-u5-plus-15-mt-105-лс-luxury-white-2024/</url></vehicle>
+<max_discount>530000</max_discount><priceWithDiscount>1515000</priceWithDiscount><sale_price>1515000</sale_price><url>https://baic-alpha.ru/cars/baic-u5-plus-15-mt-105-лс-luxury-белый-2024/</url></vehicle>
 <vehicle>
   <id>6245082</id>
   <vin>XWDALUBC9P0001657</vin>
@@ -1953,7 +1945,6 @@ Baic в Китае производит на своих заводах авто�
   <previousPrice />
   <specialOffer>0</specialOffer>
   <specialOfferPreviousPrice />
-  <priceWithDiscount>1890000</priceWithDiscount>
   <tradeinDiscount />
   <creditDiscount />
   <insuranceDiscount />
@@ -2124,7 +2115,7 @@ Baic в Китае производит на своих заводах авто�
     <inContent />
     <reserved />
   </status>
-<max_discount>0</max_discount><sale_price>1890000</sale_price><url>https://baic-alpha.ru/cars/baic-x35-15-cvt-136-лс-luxury-silver-2023/</url></vehicle>
+<max_discount>845000</max_discount><priceWithDiscount>1545000</priceWithDiscount><sale_price>1545000</sale_price><url>https://baic-alpha.ru/cars/baic-x35-15-cvt-136-лс-luxury-серебряный-2023/</url></vehicle>
 <vehicle>
   <id>6245320</id>
   <vin>XWDALUBC4P0000867</vin>
@@ -2152,7 +2143,6 @@ Baic в Китае производит на своих заводах авто�
   <previousPrice />
   <specialOffer>0</specialOffer>
   <specialOfferPreviousPrice />
-  <priceWithDiscount>1890000</priceWithDiscount>
   <tradeinDiscount />
   <creditDiscount />
   <insuranceDiscount />
@@ -2320,7 +2310,7 @@ Baic в Китае производит на своих заводах авто�
     <inContent />
     <reserved />
   </status>
-<max_discount>0</max_discount><sale_price>1890000</sale_price><url>https://baic-alpha.ru/cars/baic-x35-15-cvt-136-лс-luxury-white-2023/</url></vehicle>
+<max_discount>0</max_discount><priceWithDiscount>1890000</priceWithDiscount><sale_price>1890000</sale_price><url>https://baic-alpha.ru/cars/baic-x35-15-cvt-136-лс-luxury-белый-2023/</url></vehicle>
 <vehicle>
   <id>6368003</id>
   <vin>XWDFLUBMXP0000273</vin>
@@ -2348,7 +2338,6 @@ Baic в Китае производит на своих заводах авто�
   <previousPrice />
   <specialOffer>0</specialOffer>
   <specialOfferPreviousPrice />
-  <priceWithDiscount>2990000</priceWithDiscount>
   <tradeinDiscount />
   <creditDiscount />
   <insuranceDiscount />
@@ -2528,7 +2517,7 @@ Baic в Китае производит на своих заводах авто�
     <inContent />
     <reserved />
   </status>
-<max_discount>0</max_discount><sale_price>2990000</sale_price><url>https://baic-alpha.ru/cars/baic-x75-15-amt-177-лс-luxury-black-2024/</url></vehicle>
+<max_discount>700000</max_discount><priceWithDiscount>2500000</priceWithDiscount><sale_price>2500000</sale_price><url>https://baic-alpha.ru/cars/baic-x75-15-amt-177-лс-luxury-черный-2024/</url></vehicle>
 <vehicle>
   <id>6473632</id>
   <vin>XWDALUBCXP0001697</vin>
@@ -2541,22 +2530,21 @@ Baic в Китае производит на своих заводах авто�
   <mark_id>BAIC</mark_id><folder_id>X35</folder_id><generation />
   <bodyConfiguration id="12332">Внедорожник 5 дв.</bodyConfiguration>
   <modification_id>1.5 CVT (136 л.с.)</modification_id><complectation_name>Luxury</complectation_name><brandComplectationCode>C32BNUEV3001</brandComplectationCode>
-  <engineType>petrol</engineType>
+  <engineType>Бензин</engineType>
   <engineVolume>1499</engineVolume>
   <enginePower>136</enginePower>
   <bodyNumber />
-  <body_type>suv</body_type><bodyDoorCount>5</bodyDoorCount>
+  <body_type>SUV</body_type><bodyDoorCount>5</bodyDoorCount>
   <seatCount>5</seatCount>
   <color>Серебряный</color><bodyColorMetallic>1</bodyColorMetallic>
-  <driveType>front</driveType>
-  <gearboxType>variator</gearboxType>
+  <driveType>Передний</driveType>
+  <gearboxType>Вариатор</gearboxType>
   <gearboxGearCount />
-  <wheel>left</wheel><run>0</run><mileageUnit>km</mileageUnit>
+  <wheel>Левый</wheel><run>0</run><mileageUnit>km</mileageUnit>
   <price>2390000</price>
   <previousPrice />
   <specialOffer>0</specialOffer>
   <specialOfferPreviousPrice />
-  <priceWithDiscount>1890000</priceWithDiscount>
   <tradeinDiscount />
   <creditDiscount />
   <insuranceDiscount />
@@ -2724,7 +2712,7 @@ Baic в Китае производит на своих заводах авто�
     <inContent />
     <reserved />
   </status>
-<max_discount>0</max_discount><sale_price>1890000</sale_price><url>https://baic-alpha.ru/cars/baic-x35-15-cvt-136-лс-luxury-silver-2023/</url></vehicle>
+<max_discount>845000</max_discount><priceWithDiscount>1545000</priceWithDiscount><sale_price>1545000</sale_price><url>https://baic-alpha.ru/cars/baic-x35-15-cvt-136-лс-luxury-серебряный-2023/</url></vehicle>
 <vehicle>
   <id>6473694</id>
   <vin>XWDALUBCXP0000890</vin>
@@ -2737,22 +2725,21 @@ Baic в Китае производит на своих заводах авто�
   <mark_id>BAIC</mark_id><folder_id>X35</folder_id><generation />
   <bodyConfiguration id="12332">Внедорожник 5 дв.</bodyConfiguration>
   <modification_id>1.5 CVT (136 л.с.)</modification_id><complectation_name>Luxury</complectation_name><brandComplectationCode>C32BNUEV3001</brandComplectationCode>
-  <engineType>petrol</engineType>
+  <engineType>Бензин</engineType>
   <engineVolume>1499</engineVolume>
   <enginePower>136</enginePower>
   <bodyNumber />
-  <body_type>suv</body_type><bodyDoorCount>5</bodyDoorCount>
+  <body_type>SUV</body_type><bodyDoorCount>5</bodyDoorCount>
   <seatCount>5</seatCount>
-  <color>white</color><bodyColorMetallic>1</bodyColorMetallic>
-  <driveType>front</driveType>
-  <gearboxType>variator</gearboxType>
+  <color>Белый</color><bodyColorMetallic>1</bodyColorMetallic>
+  <driveType>Передний</driveType>
+  <gearboxType>Вариатор</gearboxType>
   <gearboxGearCount />
-  <wheel>left</wheel><run>0</run><mileageUnit>km</mileageUnit>
+  <wheel>Левый</wheel><run>0</run><mileageUnit>km</mileageUnit>
   <price>2390000</price>
   <previousPrice />
   <specialOffer>0</specialOffer>
   <specialOfferPreviousPrice />
-  <priceWithDiscount>1890000</priceWithDiscount>
   <tradeinDiscount />
   <creditDiscount />
   <insuranceDiscount />
@@ -2923,5 +2910,5 @@ Baic в Китае производит на своих заводах авто�
     <inContent />
     <reserved />
   </status>
-<max_discount>0</max_discount><sale_price>1890000</sale_price><url>https://baic-alpha.ru/cars/baic-x35-15-cvt-136-лс-luxury-white-2023/</url></vehicle>
+<max_discount>0</max_discount><priceWithDiscount>1890000</priceWithDiscount><sale_price>1890000</sale_price><url>https://baic-alpha.ru/cars/baic-x35-15-cvt-136-лс-luxury-белый-2023/</url></vehicle>
 </vehicles>
