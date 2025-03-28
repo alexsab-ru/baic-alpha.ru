@@ -37,7 +37,7 @@ const btnColor = banner?.btnColor ? banner?.btnColor : 'white';
 			{
 				banner?.badge && (
 					<Badge
-						autoName={banner.badge?.autoname}
+						autoname={banner.badge?.autoname}
 						title={banner.badge?.title}
 						descr={banner.badge?.descr}
 						image={banner.badge?.image}
@@ -56,7 +56,7 @@ const btnColor = banner?.btnColor ? banner?.btnColor : 'white';
 			</a>			
 		) : banner?.type === 'video' && !banner?.bannerUrl ? (
 			<BannerVideo poster={banner?.imageUrl} url={banner?.videoUrl} />
-		) : !banner?.type && banner?.bannerUrl ? (
+		) : banner?.type !== 'video' && banner?.bannerUrl ? (
 			<a href={banner.bannerUrl} class="absolute inset-0 h-full w-full z-10 block" {...banner?.target ? {target: banner.target} : {} }>
 				<BannerImage imageUrl={banner.imageUrl} tabletImageUrl={banner?.tabletImageUrl} mobileImageUrl={banner?.mobileImageUrl} title={banner?.title} imagePosition={banner?.imagePosition} />
 			</a>
