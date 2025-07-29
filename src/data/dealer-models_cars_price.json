@@ -1,0 +1,38 @@
+[
+  {
+    "brand": "BAIC",
+    "model": "BJ40",
+    "price": 3620000,
+    "benefit": 0
+  },
+  {
+    "brand": "BAIC",
+    "model": "U5 Plus",
+    "price": 1515000,
+    "benefit": 0
+  },
+  {
+    "brand": "BAIC",
+    "model": "X35",
+    "price": 1545000,
+    "benefit": 0
+  },
+  {
+    "brand": "BAIC",
+    "model": "X55",
+    "price": 2150000,
+    "benefit": 0
+  },
+  {
+    "brand": "BAIC",
+    "model": "X7",
+    "price": 2200000,
+    "benefit": 0
+  },
+  {
+    "brand": "BAIC",
+    "model": "X75",
+    "price": 2500000,
+    "benefit": 0
+  }
+]
